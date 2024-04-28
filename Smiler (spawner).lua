@@ -25,11 +25,11 @@ local Spawner = loadstring(game:HttpGet('https://raw.githubusercontent.com/MuhXd
 
 -- Create entity
 local entity = Spawner.createEntity({
-    CustomName = "Hunger", -- Custom name of your entity
-    Model = "https://github.com/Drop56796/Hunger-Monster/blob/Hunger-Monster/IM_HUNGRY.jpg?raw=true", -- Can be GitHub file or rbxassetid
-    Speed = 0, -- Percentage, 100 = default Rush speed
-    DelayTime = 0, -- Time before starting cycles (seconds)
-    HeightOffset = 0,
+    CustomName = "Smiler", -- Custom name of your entity
+    Model = "rbxassid://8808550143", -- Can be GitHub file or rbxassetid
+    Speed = 100, -- Percentage, 100 = default Rush speed
+    DelayTime = 2, -- Time before starting cycles (seconds)
+    HeightOffset = 999,
     CanKill = true,
     NoDieOnCrouching = false,
     NoHiding = false,
